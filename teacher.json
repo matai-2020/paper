@@ -1,0 +1,28 @@
+{
+    "teachers": [
+      {
+        "id": 1,
+        "name": "Don",
+        "image": "/images/puppy1.jpg",
+        "rating": []
+      },
+      {
+        "id": 2,
+        "name": "Emily",
+        "image": "/images/puppy1.jpg",
+        "rating": []
+      },
+      {
+        "id": 3,
+        "name": "Lache",
+        "image": "/images/puppy1.jpg",
+        "rating": []
+      },
+      {
+        "id": 4,
+        "name": "Lane",
+        "image": "/images/puppy1.jpg",
+        "rating": []
+      }
+    ]
+}
