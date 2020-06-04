@@ -8,6 +8,60 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
-    position: relative;
-    background-color: rgb(235, 235, 235);
+    background-color: #ffb6b9;
   }
+
+.instructor {
+    /* border: solid 1px green; */
+    padding: 10px;
+    margin: 10px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.image {
+    margin: 1vh 1vw;
+    /* border: yellow solid 1px; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    display: block;
+    /* border: red solid 1px; */
+}
+
+.link {
+    /* border: blue solid 1px; */
+    padding: 2vh 2vw 2vh 2vw;
+    margin: 1vh 35vw 1vh 35vw;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #61c0bf;
+    color: #fae3d9;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    text-decoration: none;
+}
+
+.comments {
+    background-color: #61c0bf;
+    color: #fae3d9;
+    padding: 1vh 1vw;
+    margin: 5vh 20vw 5vh 20vw;;
+    font-size: 1.5rem;
+}
+
+.data {
+    /* border: solid green 1px; */
+    padding: 1vh 3vw;
+    font-size: 1.3rem;
+}
