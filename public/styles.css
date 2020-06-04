@@ -19,11 +19,33 @@ img {
 
 /* home css */
 
-.homeContainer {
+.titleText {
+  color: #2e5756;
+  text-align: center;
+  margin-top: 5vmin;
+  margin-bottom: 10vmin;
+}
+
+/* .homeContainer {
+  display: flex;
+  justify-content: center;
+} */
+
+.cardContainer {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .teacherCard {
-  width: 20%;
+  border-radius: 10px;
+  margin-left: 2vmin;
+  margin-right: 2vmin;
+  margin-bottom: 10vmin;
+  width: 25%;
   background-color: #fae3d9;
   box-shadow: 0 2.8px 2.6px rgba(0, 0, 0, 0.047),
     0 6.7px 6.3px rgba(0, 0, 0, 0.074), 0 12.5px 11.9px rgba(0, 0, 0, 0.093),
@@ -32,4 +54,5 @@ img {
 }
 
 .cardText {
+  text-align: center;
 }
