@@ -25,8 +25,6 @@ xtest('GET /(nameofGETroutehere) repsonds with hello', done => {
         })
 })
 
-
-
 xtest('POST /(nameofpostroutehere) responds with name of instructor', done => {
     request(routes)
         .post('nameofpostroutehere')
