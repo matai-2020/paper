@@ -3,26 +3,58 @@
       {
         "id": 1,
         "name": "Don",
-        "image": "/images/puppy1.jpg",
-        "rating": []
+        "image": "/images/don.jpg",
+        "score": [{"username": "catsrus",
+                   "rating": 9,
+                   "comment": "He's the best!"},
+                   {"username": "dogsrus",
+                    "rating": 6,
+                    "comment": "meh"},
+                    {"username": "michaelk",
+                    "rating": 10,
+                    "comment": "Woohoo!"}]
       },
       {
         "id": 2,
         "name": "Emily",
-        "image": "/images/puppy1.jpg",
-        "rating": []
+        "image": "/images/emily.jpg",
+        "score": [{"username": "catsrus",
+          "rating": 9,
+          "comment": "She's the best!"},
+          {"username": "dogsrus",
+           "rating": 6,
+           "comment": "meh"},
+           {"username": "michaelk",
+           "rating": 10,
+           "comment": "Woohoo!"}]
       },
       {
         "id": 3,
         "name": "Lache",
-        "image": "/images/puppy1.jpg",
-        "rating": []
+        "image": "/images/lache.jpg",
+        "score": [{"username": "catsrus",
+          "rating": 9,
+          "comment": "She's the best!"},
+          {"username": "dogsrus",
+           "rating": 6,
+           "comment": "meh"},
+           {"username": "michaelk",
+           "rating": 10,
+           "comment": "Woohoo!"}]
       },
       {
         "id": 4,
         "name": "Lane",
-        "image": "/images/puppy1.jpg",
-        "rating": []
+        "image": "/images/lane.jpg",
+        "score": [{"username": "catsrus",
+          "rating": 9,
+          "comment": "He's the best!"},
+          {"username": "dogsrus",
+           "rating": 6,
+           "comment": "meh"},
+           {"username": "michaelk",
+           "rating": 10,
+           "comment": "Woohoo!"}]
       }
     ]
 }

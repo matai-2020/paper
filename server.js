@@ -1,12 +1,11 @@
-const express = require("express")
+const express = require('express')
+const hbs = require('express-handlebars')
 
-const hbs = ("require express-handlebars")
-
-const router = require('./routes')
+const routes = require('./routes')
 
 const server = express()
 
-//Middleware
+// Middleware
 
 server.engine('hbs', hbs({
   defaultLayout: 'main',
@@ -15,6 +14,9 @@ server.engine('hbs', hbs({
 
 server.set('view engine', 'hbs')
 server.use(express.static('public'))
-server.use(express.urlencoded({extended:false}))
+server.use(express.urlencoded({ extended: false }))
+
+// routes
+server.use('/', routes)
 
 module.exports = server
