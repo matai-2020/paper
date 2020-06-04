@@ -4,7 +4,7 @@
   "description": "Rate your instructor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --verbose --watchAll",
     "start": "node .",
     "dev": "nodemon index.js"
   },
@@ -23,6 +23,8 @@
     "express-handlebars": "^4.0.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
   }
 }
