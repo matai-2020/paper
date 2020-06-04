@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../public/styles.css" rel="stylesheet" type="text/css"/>
+    <title>Rate Your Instructor</title>
+</head>
+<body>
+    <div class="instructor">
+        <img class="img" src="../images/don.jpg" alt="{{name}}">
+        <a href="/rate/{{name}}">Rate Your Instructor!</a>
+        <h2>Previous Comments:</h2>
+        {{#each}}
+            <div>{{comment}}</div>  
+            <div>{{rating}}</div>
+        {{/each}}
+    </div>
+</body>
+</html>
