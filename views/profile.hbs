@@ -1,16 +1,16 @@
 <div class="instructor">
     <div class="image">
-        <img class="img" src="../images/don.jpg" alt="{{name}}">
+        <img class="img" src={{image}} alt="{{name}}">
     </div>
     <div class="text">
-        <a href="/rate/{{name}}" class="link">Rate Your Instructor!</a>
+        <a href="/profile/rating/{{id}}" class="link">Rate Your Instructor!</a>
         <div class="comments">
             <p>Previous Comments:</p>
             <div class="data">
-            {{#each teachers}}
-                <div>{{username}}</div>
-                <div>{{comment}}</div>  
-                <div>{{rating}}</div>
+            {{#each score}}
+                <div>Username: {{this.username}}</div>
+                <div>Comment: {{this.comment}}</div>  
+                <div>Rating: {{this.rating}}</div>
             {{/each}}
             </div>
         </div>

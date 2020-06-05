@@ -16,7 +16,10 @@ router.get('/', (req, res) => {
 
 // profile route
 router.get('/profile/:id', (req, res) => {
-  res.render('profile', teachers)
+  const id = req.params.id
+  // const chosenTeacher = teachers.teachers[id-1].score
+  // console.log(chosenTeacher)
+  res.render('profile', teachers.teachers[id-1])
 })
 
 // rating route
