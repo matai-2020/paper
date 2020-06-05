@@ -1,0 +1,21 @@
+<form class="form" action="/puppies/edit/{{id}}" method="post">
+  <img class="img" src="{{image}}" alt="{{name}}">
+  <label for="name" class="form-item">
+    Username:
+    <input type="text" name="name" value="{{username}}">
+  </label>
+  
+  <label for="breed" class="form-item">
+    Rating
+    <input type="number" name="breed" value="{{rating}}">
+  </label>
+  
+  <label for="owner" class="form-item">
+    Comment:
+    <input type="text" name="owner" value="{{comment}}">
+  </label>
+  
+  <!-- <input type="hidden" name="image" value="{{image}}"> -->
+  
+  <input type="submit" name="" value="Submit">
+</form>
