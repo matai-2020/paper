@@ -1,21 +1,30 @@
-<form class="form" action="/profile/rating/{{id}}" method="post">
-  <img class="img" src="{{image}}" alt="{{name}}">
-  <label for="username" class="form-item">
-    Username:
-    <input type="text" name="username" value="{{username}}">
-  </label>
-  
-  <label for="rating" class="form-item">
-    Rating
-    <input type="number" name="rating" value="{{rating}}">
-  </label>
-  
-  <label for="comment" class="form-item">
-    Comment:
-    <input type="text" name="comment" value="{{comment}}">
-  </label>
-  
-  <!-- <input type="hidden" name="image" value="{{image}}"> -->
-  
-  <input type="submit" name="" value="Submit">
-</form>
+
+
+<div class="instructor">
+    <div class="image">
+        <img class="img" src={{image}} alt="{{name}}">
+    </div>
+    <div class="text">
+      <div class="data">
+        <form class="form" action="/profile/rating/{{id}}" method="post">
+          <label for="username" class="form-item">
+            Username:
+            <input type="text" name="username" value="{{username}}">
+          </label>
+          
+          <label for="rating" class="form-item">
+            Rating
+            <input type="number" name="rating" value="{{rating}}">
+          </label>
+          
+          <label for="comment" class="form-item">
+            Comment:
+            <input type="textarea" name="comment" value="{{comment}}">
+          </label>
+          
+          <input type="submit" name="" value="Submit">
+        </form>
+      </div>
+        
+    </div>
+</div>
