@@ -42,8 +42,9 @@ body {
 
 .link {
   /* border: blue solid 1px; */
-  padding: 2vh 2vw 2vh 2vw;
-  margin: 1vh 35vw 1vh 35vw;
+  padding: 2vmin 2vmin 2vmin 2vmin;
+  margin: auto;
+  width: 35%;
   display: block;
   text-align: center;
   font-size: 1.5rem;
@@ -71,13 +72,15 @@ body {
 /* home css */
 
 .titleText {
+  font-size: 3vmin;
   color: #2e5756;
   text-align: center;
   margin-top: 5vmin;
-  margin-bottom: 10vmin;
+  font-family: "Bellota", cursive;
 }
 
 .cardContainer {
+  padding-top: 7vmin;
   margin: auto;
   width: 80%;
   display: flex;
