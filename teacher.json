@@ -36,6 +36,74 @@
     },
     {
       "id": 2,
+      "average": 7.375,
+      "name": "Dougal",
+      "image": "/images/dougal.jpg",
+      "score": [
+        {
+          "username": "Johnny01",
+          "rating": 9,
+          "comment": "Awesome teacher!"
+        },
+        {
+          "username": "Johnny01",
+          "rating": "7",
+          "comment": "Great teacher!"
+        },
+        {
+          "username": "catsrus",
+          "rating": 9,
+          "comment": "He's the best!"
+        },
+        {
+          "username": "dogsrus",
+          "rating": 6,
+          "comment": "meh"
+        },
+        {
+          "username": "michaelk",
+          "rating": 10,
+          "comment": "Woohoo!"
+        }
+      ],
+      "_locals": {}
+    },
+    {
+      "id": 3,
+      "average": 7.375,
+      "name": "Carolyn",
+      "image": "/images/caro.jpg",
+      "score": [
+        {
+          "username": "Johnny01",
+          "rating": 9,
+          "comment": "Awesome teacher!"
+        },
+        {
+          "username": "Johnny01",
+          "rating": "7",
+          "comment": "Great teacher!"
+        },
+        {
+          "username": "catsrus",
+          "rating": 9,
+          "comment": "He's the best!"
+        },
+        {
+          "username": "dogsrus",
+          "rating": 6,
+          "comment": "meh"
+        },
+        {
+          "username": "michaelk",
+          "rating": 10,
+          "comment": "Woohoo!"
+        }
+      ],
+      "_locals": {}
+    },
+    {
+      "id": 4,
       "average": 7.4,
       "name": "Emily",
       "image": "/images/emily.jpg",
@@ -69,7 +137,7 @@
       "_locals": {}
     },
     {
-      "id": 3,
+      "id": 5,
       "average": 8.5,
       "name": "Lache",
       "image": "/images/lache.jpg",
@@ -98,7 +166,7 @@
       "_locals": {}
     },
     {
-      "id": 4,
+      "id": 6,
       "average": 8,
       "name": "Lane",
       "image": "/images/lane.jpg",
