@@ -1,60 +1,98 @@
 {
-    "teachers": [
-      {
-        "id": 1,
-        "name": "Don",
-        "image": "/images/don.jpg",
-        "score": [{"username": "catsrus",
-                   "rating": 9,
-                   "comment": "He's the best!"},
-                   {"username": "dogsrus",
-                    "rating": 6,
-                    "comment": "meh"},
-                    {"username": "michaelk",
-                    "rating": 10,
-                    "comment": "Woohoo!"}]
-      },
-      {
-        "id": 2,
-        "name": "Emily",
-        "image": "/images/emily.jpg",
-        "score": [{"username": "catsrus",
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Don",
+      "image": "/images/don.jpg",
+      "score": [
+        {
+          "username": "Johnny01",
+          "rating": "7",
+          "comment": "Great teacher!"
+        },
+        {
+          "username": "catsrus",
           "rating": 9,
-          "comment": "She's the best!"},
-          {"username": "dogsrus",
-           "rating": 6,
-           "comment": "meh"},
-           {"username": "michaelk",
-           "rating": 10,
-           "comment": "Woohoo!"}]
-      },
-      {
-        "id": 3,
-        "name": "Lache",
-        "image": "/images/lache.jpg",
-        "score": [{"username": "catsrus",
+          "comment": "He's the best!"
+        },
+        {
+          "username": "dogsrus",
+          "rating": 6,
+          "comment": "meh"
+        },
+        {
+          "username": "michaelk",
+          "rating": 10,
+          "comment": "Woohoo!"
+        }
+      ],
+      "_locals": {}
+    },
+    {
+      "id": 2,
+      "name": "Emily",
+      "image": "/images/emily.jpg",
+      "score": [
+        {
+          "username": "catsrus",
           "rating": 9,
-          "comment": "She's the best!"},
-          {"username": "dogsrus",
-           "rating": 6,
-           "comment": "meh"},
-           {"username": "michaelk",
-           "rating": 10,
-           "comment": "Woohoo!"}]
-      },
-      {
-        "id": 4,
-        "name": "Lane",
-        "image": "/images/lane.jpg",
-        "score": [{"username": "catsrus",
+          "comment": "She's the best!"
+        },
+        {
+          "username": "dogsrus",
+          "rating": 6,
+          "comment": "meh"
+        },
+        {
+          "username": "michaelk",
+          "rating": 10,
+          "comment": "Woohoo!"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Lache",
+      "image": "/images/lache.jpg",
+      "score": [
+        {
+          "username": "catsrus",
           "rating": 9,
-          "comment": "He's the best!"},
-          {"username": "dogsrus",
-           "rating": 6,
-           "comment": "meh"},
-           {"username": "michaelk",
-           "rating": 10,
-           "comment": "Woohoo!"}]
-      }
-    ]
+          "comment": "She's the best!"
+        },
+        {
+          "username": "dogsrus",
+          "rating": 6,
+          "comment": "meh"
+        },
+        {
+          "username": "michaelk",
+          "rating": 10,
+          "comment": "Woohoo!"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Lane",
+      "image": "/images/lane.jpg",
+      "score": [
+        {
+          "username": "catsrus",
+          "rating": 9,
+          "comment": "He's the best!"
+        },
+        {
+          "username": "dogsrus",
+          "rating": 6,
+          "comment": "meh"
+        },
+        {
+          "username": "michaelk",
+          "rating": 10,
+          "comment": "Woohoo!"
+        }
+      ]
+    }
+  ]
 }

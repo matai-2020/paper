@@ -24,7 +24,8 @@ router.get('/profile/:id', (req, res) => {
 
 // rating route
 router.get('/profile/rating/:id', (req, res) => {
-  res.render('rating', teachers)
+  const id = req.params.id
+  res.render('rating', teachers.teachers[id-1])
 })
 
 // rating post route
@@ -33,10 +34,8 @@ router.post('/profile/rating/:id', (req, res) => {
     'rating': req.body.rating,
     'comment': req.body.comment
   }
-
-  teachers.teachers.score.unshift(feedback)
   const id = req.params.id
-
+  teachers.teachers[id-1].score.unshift(feedback)
   const newRating = JSON.stringify(teachers, null, 2)
   fs.writeFile('./teacher.json', newRating, (err) => {
     if (err) res.status(500).send('An Error Occured')
