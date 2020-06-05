@@ -2,10 +2,15 @@
   "teachers": [
     {
       "id": 1,
-      "average": 5,
+      "average": 7.375,
       "name": "Don",
       "image": "/images/don.jpg",
       "score": [
+        {
+          "username": "Johnny01",
+          "rating": 9,
+          "comment": "Awesome teacher!"
+        },
         {
           "username": "Johnny01",
           "rating": "7",
@@ -31,10 +36,15 @@
     },
     {
       "id": 2,
-      "average": 5,
+      "average": 8,
       "name": "Emily",
       "image": "/images/emily.jpg",
       "score": [
+        {
+          "username": "Johnny01",
+          "rating": "7",
+          "comment": "Great teacher!"
+        },
         {
           "username": "catsrus",
           "rating": 9,
@@ -50,7 +60,8 @@
           "rating": 10,
           "comment": "Woohoo!"
         }
-      ]
+      ],
+      "_locals": {}
     },
     {
       "id": 3,
@@ -77,10 +88,15 @@
     },
     {
       "id": 4,
-      "average": 5,
+      "average": 8,
       "name": "Lane",
       "image": "/images/lane.jpg",
       "score": [
+        {
+          "username": "Johnny01",
+          "rating": "7",
+          "comment": "Pretty good."
+        },
         {
           "username": "catsrus",
           "rating": 9,
@@ -96,7 +112,9 @@
           "rating": 10,
           "comment": "Woohoo!"
         }
-      ]
+      ],
+      "_locals": {}
     }
-  ]
+  ],
+  "_locals": {}
 }
