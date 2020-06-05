@@ -41,7 +41,7 @@
       "image": "/images/emily.jpg",
       "score": [
         {
-          "username": "Thing1",8
+          "username": "Thing1",
           "rating": "5",
           "comment": "She was fine"
         },
@@ -133,4 +133,4 @@
     }
   ],
   "_locals": {}
-}8
+}
