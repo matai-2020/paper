@@ -1,29 +1,23 @@
-
-
 <div class="instructor">
+    <div class="sensei">{{name}}</div>
     <div class="image">
         <img class="img" src={{image}} alt="{{name}}">
     </div>
     <div class="text">
       <div class="data">
         <form class="form" action="/profile/rating/{{id}}" method="post">
-          <label for="username" class="form-item">
-            Username:
-            <input type="text" name="username" value="{{username}}">
-          </label>
+          <label class="label" for="username" class="form-item">Username:</label>
+          <input type="text" name="username" value="{{username}}" placeholder="Your name..">
           
-          <label for="rating" class="form-item">
-            Rating
-            <input type="number" name="rating" value="{{rating}}">
-          </label>
-          
-          <label for="comment" class="form-item">
-            Comment:
-            <input type="textarea" name="comment" value="{{comment}}">
-          </label>
-          
+          <br>
+          <label class="label" for="rating" class="form-item">Rating:</label>
+          <input type="number" name="rating" value="{{rating}}" placeholder="Your rating">
+          <br>
+          <label class="label" for="comment" class="form-item">Comment:</label>
+            <textarea id="subject" name="comment" placeholder="Be kind..." style="height:200px" value="{{comment}}"></textarea>
+          <br>
           <input type="submit" name="" value="Submit">
-        </form>
+        </form>  
       </div>
         
     </div>
