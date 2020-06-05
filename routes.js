@@ -30,9 +30,9 @@ router.post('/profile/rating/:id', (req, res) => {
     'rating': req.body.rating,
     'comment': req.body.comment
   }
+
   teachers.teachers.score.unshift(feedback)
   const id = req.params.id
-  // updating teacher json
 
   const newRating = JSON.stringify(teachers, null, 2)
   fs.writeFile('./teacher.json', newRating, (err) => {
