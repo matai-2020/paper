@@ -14,25 +14,30 @@ router.get('/', (req, res) => {
   res.render('home', teachers)
 })
 
-//profile route
+// profile route
 router.get('/profile/:id', (req, res) => {
   res.render('profile', teachers)
 })
 
-//rating route
+// rating route
 router.get('/profile/rating/:id', (req, res) => {
   res.render('rating', teachers)
 })
 
-//rating post route
+// rating post route
 router.post('/profile/rating/:id', (req, res) => {
-  const teacher = req.body.
+  const feedback = { 'username': req.body.username,
+    'rating': req.body.rating,
+    'comment': req.body.comment
+  }
+  teachers.teachers.score.unshift(feedback)
+  const id = req.params.id
+  // updating teacher json
 
-  //updating teacher json
-
-  const newRating = JSON.stringify(teacher, null, 2)
+  const newRating = JSON.stringify(teachers, null, 2)
   fs.writeFile('./teacher.json', newRating, (err) => {
     if (err) res.status(500).send('An Error Occured')
+    res.redirect(`/profile/${id}`)
   })
 })
 
