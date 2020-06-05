@@ -36,10 +36,15 @@
     },
     {
       "id": 2,
-      "average": 7.375,
+      "average": 8.5,
       "name": "Dougal",
       "image": "/images/dougal.jpg",
       "score": [
+        {
+          "username": "Louis",
+          "rating": "10",
+          "comment": "Smells nice"
+        },
         {
           "username": "Johnny01",
           "rating": 9,
@@ -167,10 +172,15 @@
     },
     {
       "id": 6,
-      "average": 8,
+      "average": 7.5,
       "name": "Lane",
       "image": "/images/lane.jpg",
       "score": [
+        {
+          "username": "Louis",
+          "rating": "5",
+          "comment": "Really cool dude!"
+        },
         {
           "username": "JollyRodger46",
           "rating": "8",
@@ -190,11 +200,6 @@
           "username": "dogsrus",
           "rating": 6,
           "comment": "meh"
-        },
-        {
-          "username": "michaelk",
-          "rating": 10,
-          "comment": "Woohoo!"
         }
       ],
       "_locals": {}
