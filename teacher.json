@@ -2,6 +2,7 @@
   "teachers": [
     {
       "id": 1,
+      "average": 5,
       "name": "Don",
       "image": "/images/don.jpg",
       "score": [
@@ -30,6 +31,7 @@
     },
     {
       "id": 2,
+      "average": 5,
       "name": "Emily",
       "image": "/images/emily.jpg",
       "score": [
@@ -52,6 +54,7 @@
     },
     {
       "id": 3,
+      "average": 5,
       "name": "Lache",
       "image": "/images/lache.jpg",
       "score": [
@@ -74,6 +77,7 @@
     },
     {
       "id": 4,
+      "average": 5,
       "name": "Lane",
       "image": "/images/lane.jpg",
       "score": [

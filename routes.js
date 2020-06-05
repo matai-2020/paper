@@ -17,6 +17,12 @@ router.get('/', (req, res) => {
 // profile route
 router.get('/profile/:id', (req, res) => {
   const id = req.params.id
+  let sum = 0
+  teachers.teachers[id-1].score.forEach(value => {
+    sum += value.rating
+  })
+  const average = sum / teachers.teachers[id-1].score.length
+  teachers.teachers[id-1].average = average
   // const chosenTeacher = teachers.teachers[id-1].score
   // console.log(chosenTeacher)
   res.render('profile', teachers.teachers[id-1])
@@ -31,7 +37,7 @@ router.get('/profile/rating/:id', (req, res) => {
 // rating post route
 router.post('/profile/rating/:id', (req, res) => {
   const feedback = { 'username': req.body.username,
-    'rating': req.body.rating,
+    'rating': number(req.body.rating),
     'comment': req.body.comment
   }
   const id = req.params.id
