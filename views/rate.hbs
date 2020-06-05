@@ -1,18 +1,18 @@
-<form class="form" action="/puppies/edit/{{id}}" method="post">
+<form class="form" action="/profile/rating/{{id}}" method="post">
   <img class="img" src="{{image}}" alt="{{name}}">
-  <label for="name" class="form-item">
+  <label for="username" class="form-item">
     Username:
-    <input type="text" name="name" value="{{username}}">
+    <input type="text" name="username" value="{{username}}">
   </label>
   
-  <label for="breed" class="form-item">
+  <label for="rating" class="form-item">
     Rating
-    <input type="number" name="breed" value="{{rating}}">
+    <input type="number" name="rating" value="{{rating}}">
   </label>
   
-  <label for="owner" class="form-item">
+  <label for="comment" class="form-item">
     Comment:
-    <input type="text" name="owner" value="{{comment}}">
+    <input type="text" name="comment" value="{{comment}}">
   </label>
   
   <!-- <input type="hidden" name="image" value="{{image}}"> -->
