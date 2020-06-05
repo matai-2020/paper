@@ -36,10 +36,15 @@
     },
     {
       "id": 2,
-      "average": 8,
+      "average": 7.4,
       "name": "Emily",
       "image": "/images/emily.jpg",
       "score": [
+        {
+          "username": "Thing1",8
+          "rating": "5",
+          "comment": "She was fine"
+        },
         {
           "username": "Johnny01",
           "rating": "7",
@@ -65,10 +70,15 @@
     },
     {
       "id": 3,
-      "average": 5,
+      "average": 8.5,
       "name": "Lache",
       "image": "/images/lache.jpg",
       "score": [
+        {
+          "username": "UptownBoi34",
+          "rating": "9",
+          "comment": "So helpful, love, love, love"
+        },
         {
           "username": "catsrus",
           "rating": 9,
@@ -84,7 +94,8 @@
           "rating": 10,
           "comment": "Woohoo!"
         }
-      ]
+      ],
+      "_locals": {}
     },
     {
       "id": 4,
@@ -92,6 +103,11 @@
       "name": "Lane",
       "image": "/images/lane.jpg",
       "score": [
+        {
+          "username": "JollyRodger46",
+          "rating": "8",
+          "comment": "Love him! Highlight on-point"
+        },
         {
           "username": "Johnny01",
           "rating": "7",
@@ -117,4 +133,4 @@
     }
   ],
   "_locals": {}
-}
+}8
